@@ -1,0 +1,16 @@
+# Original source materials are excluded from the public portfolio version.
+*.docx
+*.pptx
+*.pdf
+
+# Raw screenshots or identifying visuals should not be committed.
+screenshots/
+raw/
+*.png
+*.jpg
+*.jpeg
+
+# OS/editor files
+.DS_Store
+Thumbs.db
+.ipynb_checkpoints/
