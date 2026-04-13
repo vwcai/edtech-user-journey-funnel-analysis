@@ -45,6 +45,12 @@ flowchart LR
 
 The analysis focused on course information clarity, pricing visibility, evaluation timing, low-risk entry options, refund policy visibility, and whether tracking coverage could support funnel diagnosis.
 
+## Methodology: Hands-On Journey Testing
+
+The analysis was conducted through a hands-on walkthrough from the perspective of a prospective parent evaluating online learning options. I reviewed search-entry paths, course browsing pages, sign-up flow, evaluation prompts, low-risk trial options, refund/drop policy visibility, and browser-side tracking requests.
+
+The goal was to identify friction points that a real user might experience before committing to enrollment, then translate those observations into prioritized product and analytics recommendations.
+
 ## Data and Evidence
 
 - Public website walkthroughs from a simulated parent perspective

@@ -83,11 +83,11 @@ If these recommendations were implemented, I would track whether the changes imp
 
 ## Skills Demonstrated
 
-- business problem framing
-- user journey mapping
+- user journey analysis
 - conversion funnel analysis
+- web analytics and GA4 tracking review
 - competitor benchmarking
 - UX friction diagnosis
 - recommendation prioritization
-- GA4 tracking audit
-- analytics implementation planning
+- data communication
+- dashboard and KPI planning
