@@ -46,16 +46,40 @@ Parents need clear course information, pricing, placement requirements, trial op
 - Reduce repeated evaluation prompts during browsing and shift placement messaging closer to high-intent moments
 - Add journey-specific GA4 events for course views, selections, enrollment intent, trial clicks, checkout steps, and form behavior
 
+## Success Metrics
+
+If these recommendations were implemented, I would track whether the changes improve both conversion behavior and measurement quality:
+
+- Course detail to sign-up rate
+- Course detail to trial CTA click rate
+- Evaluation CTA click-through rate
+- Evaluation start to completion rate
+- Sign-up start to form submit rate
+- Checkout start rate
+- Purchase or enrollment conversion rate
+- Refund/drop policy view rate near purchase intent
+- Event coverage completeness across the funnel
+
+## Implementation Priority
+
+| Priority | Recommendation | Why It Comes First |
+| --- | --- | --- |
+| P0 | Increase low-cost trial and refund/drop policy visibility | High expected impact with low implementation effort because the assets already exist |
+| P1 | Improve pricing and course overview visibility | Reduces early browsing friction and helps users compare options before sign-in |
+| P2 | Reduce evaluation prompt pressure and revise placement messaging | High impact, but likely requires more product, UX, and stakeholder alignment |
+
 ## Start Here
 
 - `PROJECT_SUMMARY.md`: detailed anonymized case study
 - `docs/measurement_plan.md`: recommended event tracking plan for funnel measurement
+- `docs/dashboard_plan.md`: dashboard plan for monitoring funnel performance
 
 ## Repository Contents
 
 - `README.md`: portfolio landing page
 - `PROJECT_SUMMARY.md`: full case-study narrative with funnel findings and recommendations
 - `docs/measurement_plan.md`: proposed GA4-style tracking plan
+- `docs/dashboard_plan.md`: proposed dashboard structure and KPI views
 
 ## Skills Demonstrated
 
