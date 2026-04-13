@@ -54,10 +54,10 @@ The goal is to make the browsing-to-enrollment funnel measurable so a product or
 - Users exposed to policy information vs not exposed
 - Users who completed evaluation vs users who abandoned before evaluation
 
-## Implementation Notes
+## Setup Notes
 
 - Define one primary reporting destination before expanding event coverage
 - Use consistent event and parameter naming across pages
 - Avoid relying only on page views and scroll events for funnel analysis
-- Validate events in debug mode before using them for reporting
-- Document the business meaning of each custom event so reporting remains interpretable
+- Test events before using them for reporting
+- Document the business meaning of each tracked event so reporting remains interpretable

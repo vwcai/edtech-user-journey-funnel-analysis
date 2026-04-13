@@ -1,6 +1,6 @@
 # EdTech User Journey and Conversion Funnel Analysis
 
-This repository is an anonymized Business Analyst portfolio case study on user journey friction, conversion drop-offs, competitor benchmarking, and tracking gaps in an online education funnel.
+This repository is an anonymized Business Analyst portfolio case study on user journey friction, conversion drop-offs, competitor benchmarking, and web analytics gaps in an online education funnel.
 
 ## Public Portfolio Note
 
@@ -19,8 +19,8 @@ Parents need clear course information, pricing, placement requirements, trial op
 - Public website walkthroughs from a simulated parent perspective
 - Competitor user journey comparison between a target platform and a benchmark platform
 - Funnel-stage friction assessment across browsing, sign-up, evaluation, trial, and purchase
-- Browser-side GA4 request inspection using Chrome DevTools
-- Observed front-end events and tracking gaps
+- Browser-side GA4 request review using Chrome DevTools
+- Observed website events and tracking gaps
 
 ## Approach
 
@@ -28,7 +28,7 @@ Parents need clear course information, pricing, placement requirements, trial op
 - Compared friction across major funnel stages for both platforms
 - Identified three high-impact drop-off points in the target platform journey
 - Prioritized recommendations by expected impact, implementation effort, and speed to effect
-- Reviewed browser-side tracking coverage to assess whether the funnel could be measured reliably
+- Reviewed browser-side tracking coverage to assess whether the funnel could be measured more reliably
 
 ## Key Insights
 
@@ -44,7 +44,7 @@ Parents need clear course information, pricing, placement requirements, trial op
 - Surface refund and drop policies directly on course pages and purchase-adjacent screens
 - Show pricing or price ranges before sign-in to reduce unnecessary registration friction
 - Reduce repeated evaluation prompts during browsing and shift placement messaging closer to high-intent moments
-- Add journey-specific GA4 events for course views, selections, enrollment intent, trial clicks, checkout steps, and form behavior
+- Add journey-specific website events for course views, selections, enrollment intent, trial clicks, checkout steps, and form behavior
 
 ## Success Metrics
 
@@ -58,7 +58,7 @@ If these recommendations were implemented, I would track whether the changes imp
 - Checkout start rate
 - Purchase or enrollment conversion rate
 - Refund/drop policy view rate near purchase intent
-- Event coverage completeness across the funnel
+- Tracking coverage completeness across the funnel
 
 ## Implementation Priority
 
@@ -66,7 +66,7 @@ If these recommendations were implemented, I would track whether the changes imp
 | --- | --- | --- |
 | P0 | Increase low-cost trial and refund/drop policy visibility | High expected impact with low implementation effort because the assets already exist |
 | P1 | Improve pricing and course overview visibility | Reduces early browsing friction and helps users compare options before sign-in |
-| P2 | Reduce evaluation prompt pressure and revise placement messaging | High impact, but likely requires more product, UX, and stakeholder alignment |
+| P2 | Reduce evaluation prompt pressure and revise placement messaging | High impact, but likely requires more product, content, and stakeholder alignment |
 
 ## Start Here
 
@@ -85,9 +85,9 @@ If these recommendations were implemented, I would track whether the changes imp
 
 - user journey analysis
 - conversion funnel analysis
-- web analytics and GA4 tracking review
+- web analytics and GA4 review
 - competitor benchmarking
-- UX friction diagnosis
+- user friction analysis
 - recommendation prioritization
 - data communication
 - dashboard and KPI planning

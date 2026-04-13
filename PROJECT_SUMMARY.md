@@ -12,7 +12,7 @@ The analysis found three main drop-off risks for the target platform:
 
 The top recommendation is to make the existing low-cost trial option and refund/drop policies more discoverable at decision-heavy moments. This is a high-impact, low-effort improvement because the product and policies already exist; the main issue is visibility.
 
-The project also includes a browser-side tracking review. Based on observed requests during testing, the current tracking setup appeared to have fragmented measurement destinations, limited mid-funnel event coverage, and incomplete form identifiers. Improving event instrumentation would make future funnel optimization more measurable.
+The project also includes a browser-side tracking review. Based on observed requests during testing, the current tracking setup appeared to have multiple reporting destinations, limited mid-funnel event coverage, and incomplete form identifiers. Improving the tracking plan would make future funnel optimization more measurable.
 
 ## Business Context
 
@@ -60,7 +60,7 @@ The goal was to identify friction points that a real user might experience befor
 - Browser-side GA4 request inspection using Chrome DevTools
 - Observed event names, form behavior, and measurement coverage gaps
 
-Because the analysis uses external observation only, findings should be interpreted as a product and analytics audit rather than a validated internal conversion study.
+Because the analysis uses external observation only, findings should be interpreted as a user journey and tracking review rather than a validated internal conversion study.
 
 ## Funnel Comparison
 
@@ -137,13 +137,13 @@ The recommended sequence is to start with P0 because it uses existing product an
 
 The browser-side tracking audit suggested three measurement issues.
 
-### 1. Fragmented Measurement Destinations
+### 1. Multiple Reporting Destinations
 
-Some events appeared to be sent to multiple measurement destinations. This can create fragmented reporting and governance complexity if the purpose of each destination is unclear.
+Some events appeared to be sent to multiple reporting destinations. This can create fragmented reporting and extra complexity if the purpose of each destination is unclear.
 
 Recommendation:
 
-- Clarify the role of each measurement destination
+- Clarify the role of each reporting destination
 - Define one primary reporting source
 - Remove or document redundant destinations where appropriate
 
@@ -168,7 +168,7 @@ Recommendation:
 
 ## Business Recommendations
 
-### Product and UX Recommendations
+### Product and Journey Recommendations
 
 - Make low-risk conversion paths easier to find
 - Bring pricing and course overview information earlier in the journey
@@ -178,7 +178,7 @@ Recommendation:
 
 ### Analytics Recommendations
 
-- Define a clean funnel event taxonomy
+- Define a clear funnel event naming plan
 - Add course-level parameters to browsing and enrollment events
 - Ensure form events include useful identifiers
 - Use funnel exploration to validate where users actually drop off
@@ -201,7 +201,7 @@ Improving visibility of trial options, refund policies, course details, and pric
 - The analysis is based on external website testing, not internal user-level analytics
 - Search results and site behavior may vary by location, browser state, and time
 - Conversion impact is inferred from journey friction rather than measured from backend data
-- Tracking observations are based on browser-side inspection and should be verified against the actual analytics implementation
+- Tracking observations are based on browser-side inspection and should be verified against the actual analytics setup
 
 ## Next Steps With Data Access
 

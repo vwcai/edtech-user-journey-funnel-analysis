@@ -1,6 +1,6 @@
 # Dashboard Plan
 
-This dashboard plan translates the user journey findings into a monitoring structure that a business or product analytics team could use after implementing tracking improvements.
+This dashboard plan translates the user journey findings into a monitoring structure that a business analyst or product team could use after tracking improvements are added.
 
 ## Dashboard Goal
 
@@ -27,7 +27,7 @@ Recommended visuals:
 Key questions:
 
 - Where is the largest drop-off?
-- Is the funnel improving after UX changes?
+- Is the funnel improving after journey changes?
 - Are more users taking low-risk trial actions?
 
 ## 2. Course Browsing Behavior
@@ -135,7 +135,7 @@ Key questions:
 - Users who viewed refund/drop policy vs users who did not
 - Users who started evaluation vs users who skipped or abandoned evaluation
 
-## Post-Launch Experiment Ideas
+## Follow-Up Test Ideas
 
 - Test adding trial CTA modules to course pages
 - Test showing price ranges before sign-in
@@ -147,4 +147,4 @@ Key questions:
 
 - Weekly: monitor funnel conversion, trial clicks, evaluation starts, and checkout starts
 - Biweekly: review segment-level changes and page-level friction
-- Monthly: evaluate whether UX changes improved conversion and whether additional experiments are needed
+- Monthly: evaluate whether journey changes improved conversion and whether additional follow-up tests are needed
