@@ -2,6 +2,8 @@
 
 This document outlines an anonymized tracking plan for measuring the user journey described in the case study.
 
+This is a proposed business tracking plan, not an implemented analytics setup.
+
 ## Measurement Goal
 
 The goal is to make the browsing-to-enrollment funnel measurable so a product or analytics team can identify where users drop off and which interventions reduce friction.

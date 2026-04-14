@@ -30,6 +30,8 @@ If these questions are difficult to answer during browsing, users may register r
 
 This project is an anonymized portfolio case study based on publicly accessible website walkthroughs and browser-side testing. Company names, URLs, screenshots, exact tracking identifiers, and other identifying details have been generalized. The project does not use internal company data.
 
+The measurement and dashboard recommendations should be read as proposed planning outputs rather than implemented tracking or live reporting.
+
 ## Journey Scope
 
 The user journey was evaluated across six stages:

@@ -2,6 +2,8 @@
 
 This dashboard plan translates the user journey findings into a monitoring structure that a business analyst or product team could use after tracking improvements are added.
 
+This is a proposed dashboard structure, not a live dashboard built from internal data.
+
 ## Dashboard Goal
 
 The dashboard should help answer one main question:

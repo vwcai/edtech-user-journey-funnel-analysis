@@ -6,6 +6,8 @@ This repository is an anonymized Business Analyst portfolio case study on user j
 
 This project is based on publicly accessible website walkthroughs and browser-side testing. Company names, URLs, screenshots, tracking identifiers, and other identifying details have been generalized. The analysis does not use internal company data.
 
+The measurement and dashboard documents are proposed planning deliverables, not implemented tracking or live dashboard outputs.
+
 ## Project Overview
 
 This project evaluates the browsing-to-purchase journey for an online education platform by comparing a `Target Platform` against a `Benchmark Platform` from the perspective of a parent evaluating math programs for a child.
