@@ -1,16 +1,16 @@
 # EdTech User Journey and Conversion Funnel Analysis
 
-This repository is an anonymized Business Analyst portfolio case study on user journey friction, conversion drop-offs, competitor benchmarking, and web analytics gaps in an online education funnel.
+This repository is a Business Analyst portfolio case study on user journey friction, conversion drop-offs, competitor benchmarking, and web analytics gaps in an online education funnel.
 
 ## Public Portfolio Note
 
-This project is based on publicly accessible website walkthroughs and browser-side testing. Company names, URLs, screenshots, tracking identifiers, and other identifying details have been generalized. The analysis does not use internal company data.
+This project is based on publicly accessible website walkthroughs and browser-side testing of Think Academy and AoPS Academy. The analysis does not use internal company data, and this repository does not include raw screenshots, private data, or tracking identifiers.
 
 The measurement and dashboard documents are proposed planning deliverables, not implemented tracking or live dashboard outputs.
 
 ## Project Overview
 
-This project evaluates the browsing-to-purchase journey for an online education platform by comparing a `Target Platform` against a `Benchmark Platform` from the perspective of a parent evaluating math programs for a child.
+This project evaluates the browsing-to-purchase journey for Think Academy by comparing it with AoPS Academy from the perspective of a parent evaluating math programs for a child.
 
 ## Business Problem
 
@@ -19,7 +19,7 @@ Parents need clear course information, pricing, placement requirements, trial op
 ## Data
 
 - Public website walkthroughs from a simulated parent perspective
-- Competitor user journey comparison between a target platform and a benchmark platform
+- Competitor user journey comparison between Think Academy and AoPS Academy
 - Funnel-stage friction assessment across browsing, sign-up, evaluation, trial, and purchase
 - Browser-side GA4 request review using Chrome DevTools
 - Observed website events and tracking gaps
@@ -28,7 +28,7 @@ Parents need clear course information, pricing, placement requirements, trial op
 
 - Mapped the end-to-end user journey from search entry to course purchase
 - Compared friction across major funnel stages for both platforms
-- Identified three high-impact drop-off points in the target platform journey
+- Identified three high-impact drop-off points in the Think Academy journey
 - Prioritized recommendations by expected impact, implementation effort, and speed to effect
 - Reviewed browser-side tracking coverage to assess whether the funnel could be measured more reliably
 
@@ -72,7 +72,7 @@ If these recommendations were implemented, I would track whether the changes imp
 
 ## Start Here
 
-- `PROJECT_SUMMARY.md`: detailed anonymized case study
+- `PROJECT_SUMMARY.md`: detailed case study
 - `docs/measurement_plan.md`: recommended event tracking plan for funnel measurement
 - `docs/dashboard_plan.md`: dashboard plan for monitoring funnel performance
 

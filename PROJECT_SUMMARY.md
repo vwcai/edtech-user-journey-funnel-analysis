@@ -2,9 +2,9 @@
 
 ## Executive Summary
 
-This anonymized case study evaluates conversion friction in an online education user journey. The analysis compares a `Target Platform` against a `Benchmark Platform` from the perspective of a parent researching math programs, moving from search entry through browsing, sign-up, evaluation, trial, and purchase.
+This case study evaluates conversion friction in an online education user journey. The analysis compares Think Academy with AoPS Academy from the perspective of a parent researching math programs, moving from search entry through browsing, sign-up, evaluation, trial, and purchase.
 
-The analysis found three main drop-off risks for the target platform:
+The analysis found three main drop-off risks for Think Academy:
 
 - key decision-making information was not visible enough on core course pages
 - evaluation prompts appeared too early and too frequently during browsing
@@ -28,7 +28,7 @@ If these questions are difficult to answer during browsing, users may register r
 
 ## Public Portfolio Note
 
-This project is an anonymized portfolio case study based on publicly accessible website walkthroughs and browser-side testing. Company names, URLs, screenshots, exact tracking identifiers, and other identifying details have been generalized. The project does not use internal company data.
+This project is a portfolio case study based on publicly accessible website walkthroughs and browser-side testing of Think Academy and AoPS Academy. The project does not use internal company data, and this repository does not include raw screenshots, private data, or tracking identifiers.
 
 The measurement and dashboard recommendations should be read as proposed planning outputs rather than implemented tracking or live reporting.
 
@@ -58,7 +58,7 @@ The goal was to identify friction points that a real user might experience befor
 - Public website walkthroughs from a simulated parent perspective
 - Search-entry and homepage-entry observations
 - Course page browsing and sign-up flow testing
-- Comparison with a benchmark platform in the same category
+- Comparison with AoPS Academy as a benchmark platform in the same category
 - Browser-side GA4 request inspection using Chrome DevTools
 - Observed event names, form behavior, and measurement coverage gaps
 
@@ -66,13 +66,13 @@ Because the analysis uses external observation only, findings should be interpre
 
 ## Funnel Comparison
 
-| Stage | Target Platform | Benchmark Platform | User Decision Question |
+| Stage | Think Academy | AoPS Academy | User Decision Question |
 | --- | --- | --- | --- |
-| Browse | Higher friction: key course information and pricing were less visible on core program pages | Lower friction: pricing and course details were easier to review before sign-in | Which course fits best, and is the price acceptable? |
-| Sign Up | Lower friction: registration flow was relatively straightforward | Medium friction: account setup involved more steps | Am I willing to register to continue? |
-| Evaluation | Higher friction: evaluation was emphasized repeatedly during browsing | Medium friction: placement appeared closer to purchase intent | Am I ready to schedule or complete a placement step? |
-| Trial / Low-Barrier Entry | Higher friction: a low-cost trial option existed but was difficult to discover | Medium friction: lower-risk entry options were easier to locate, though not always low-cost | Is there a low-risk way to try the program first? |
-| Purchase | Medium friction: evaluation requirement and policy visibility created uncertainty | Lower friction: purchase-adjacent information was clearer | Am I willing to commit, and can I recover if it is not a fit? |
+| Browse | Think Academy had higher friction: key course information and pricing were less visible on core program pages | AoPS Academy had lower friction: pricing and course details were easier to review before sign-in | Which course fits best, and is the price acceptable? |
+| Sign Up | Think Academy had lower friction: registration flow was relatively straightforward | AoPS Academy had medium friction: account setup involved more steps | Am I willing to register to continue? |
+| Evaluation | Think Academy had higher friction: evaluation was emphasized repeatedly during browsing | AoPS Academy had medium friction: placement appeared closer to purchase intent | Am I ready to schedule or complete a placement step? |
+| Trial / Low-Barrier Entry | Think Academy had higher friction: a low-cost trial option existed but was difficult to discover | AoPS Academy had medium friction: lower-risk entry options were easier to locate, though not always low-cost | Is there a low-risk way to try the program first? |
+| Purchase | Think Academy had medium friction: evaluation requirement and policy visibility created uncertainty | AoPS Academy had lower friction: purchase-adjacent information was clearer | Am I willing to commit, and can I recover if it is not a fit? |
 
 ## Key Drop-Off Points
 
@@ -94,7 +94,7 @@ Recommended action:
 
 ### 2. Evaluation Prompts Created Early Decision Pressure
 
-The target platform emphasized evaluation throughout browsing. While placement may be necessary before enrollment, repeated prompts can make the experience feel high-pressure before users have enough information to decide.
+Think Academy emphasized evaluation throughout browsing. While placement may be necessary before enrollment, repeated prompts can make the experience feel high-pressure before users have enough information to decide.
 
 Why this matters:
 
@@ -111,7 +111,7 @@ Recommended action:
 
 ### 3. Risk-Reducing Information Was Hard to Find
 
-The target platform had a low-cost trial option and refund/drop policy information, but these were not visible enough at key decision points.
+Think Academy had a low-cost trial option and refund/drop policy information, but these were not visible enough at key decision points.
 
 Why this matters:
 

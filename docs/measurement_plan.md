@@ -1,6 +1,6 @@
 # Measurement Plan
 
-This document outlines an anonymized tracking plan for measuring the user journey described in the case study.
+This document outlines a proposed tracking plan for measuring the user journey described in the case study.
 
 This is a proposed business tracking plan, not an implemented analytics setup.
 
